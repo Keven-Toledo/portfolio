@@ -111,11 +111,137 @@ body {
   font-size: 2em;
 }
 
+@media (max-width: 1200px) {
+  body {
+    background-size: 243vw, 100vw;
+    background-position: center left;
+    background-position-x: 34%;
+    background-position-y: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-size: 243vw, 100vw;
+    background-position: center left;
+    background-position-x: 21%;
+    background-position-y: 53%;
+  }
+
+  .borda-da-pagina {
+    height: 28px;
+  }
+
+  .trapezio {
+    top: 20px;
+    height: 10px;
+    width: 17em;
+  }
+  .conteudo {
+    justify-content: center;  
+  }
+
+  .conteudo__escrito {
+    padding-top: 0em;
+  }
+  
+  .conteudo__titulo {
+    font-size: 8em;
+  }
+
+  .conteudo__subtitulo {
+    font-size: 1.9em
+  }
+  .pai_do_menu{
+    width: 50vw;
+    padding: 10px 0;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .container_link {
+    color: var(--cor__letra);
+    font-size: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  body {
+    background-size: 243vw, 100vw;
+    background-position: center left;
+    background-position-x: 21%;
+    background-position-y: 53%;
+  }
+
+  .borda-da-pagina {
+    height: 28px;
+  }
+
+  .trapezio {
+    top: 20px;
+    height: 10px;
+    width: 17em;
+  }
+  .conteudo {
+    justify-content: center;
+    text-align: center;  }
+  .conteudo__escrito {
+    padding-top: 0em;
+  }
+  
+  .conteudo__titulo {
+    font-size: 6em;
+  }
+
+  .pai_do_menu{
+    width: 50vw;
+    padding: 10px 0;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .container_link {
+    color: var(--cor__letra);
+    font-size: 0.6em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+  }
+
+}
+
 @media (max-width: 480px) {
+
+  body {
+    background-size: 375vw, 100vw;
+    background-position: center left;
+    background-position-x: 34%;
+    background-position-y: 33%;
+  }
+
   .trapezio {
     width: 195px;
   }
 
+  .conteudo {
+    justify-content: center;
+  }
   .conteudo__escrito {
     display: flex;
     flex-direction: column;
@@ -140,13 +266,7 @@ body {
     margin: -24px 67px;
     text-align: center;
   }
-  body {
-    background-size: 375vw, 100vw;
-    background-position: center left;
-    background-position-x: 34%;
-    background-position-y: 33%;
-  }
-
+  
   .pai_do_menu{
     width: 100vw;
     padding: 10px 0;
@@ -168,3 +288,8 @@ body {
     width: 100%;
   }
 }
+
+
+
+
+
