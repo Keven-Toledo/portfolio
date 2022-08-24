@@ -162,7 +162,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-left: 10px;
   }
 
   .container_link {
