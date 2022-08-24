@@ -180,7 +180,7 @@ body {
     background-size: 243vw, 100vw;
     background-position: center left;
     background-position-x: 21%;
-    background-position-y: 53%;
+    background-position-y: 28%;
   }
 
   .borda-da-pagina {
@@ -248,7 +248,7 @@ body {
     align-items: center;
     margin: 0;
     gap: 2em;
-    padding-top: 3em;
+    padding-top: 8em;
   }
   
   .conteudo__titulo {
