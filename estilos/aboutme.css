@@ -1,0 +1,83 @@
+@charset "UFT-8";
+
+:root {
+  --cor__titulo__maior: rgba(190, 190, 190, 0.285);
+  --cor__letra: #FFFFFF;
+  --fonte__padrao: 'gemunu', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.corpo {
+  background-image: url(../fotos/pontilhados\ 1.png),linear-gradient(269.75deg, var(--cor__secundaria) 9.86%, var(--cor__primaria) 56.99%);
+  background-repeat:no-repeat, repeat;
+  background-size: 64%, 100vw;
+  background-position: -12% 32%;
+  font-family: var(--fonte__padrao);
+  color: white;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.5em;
+}
+
+.titulo_secundario {
+  font-size: 150px;
+  font-style: normal;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: var(--cor__titulo__maior);
+  text-shadow: 5px 2px 2px rgba(101, 101, 101, 0.22);
+  position: relative;
+}
+
+.titulo_principal {
+  position: absolute;
+  padding-top: 20px;
+  font-size: 78.7px;
+  font-style: normal;
+  font-weight: 700;
+}
+.conteudo {
+  display: flex;
+  justify-content: center;
+  background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
+  background-repeat: no-repeat;
+  background-position: 9% -32%, 90% 239%;
+  background-size: 9vh;
+}
+
+.biografia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  padding-top: 2em;
+}
+
+.container_principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.biografia_foto {
+  height: 10em;
+}
+
+.biografia_texto {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-indent: 1.6em;
+  padding: 20px;
+}
+

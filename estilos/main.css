@@ -1,5 +1,8 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+@font-face {
+  font-family: 'gemunu';
+  src: url(../fontes/gemunu_libre/fonts/variable/GemunuLibre[wght].ttf) format('truetype');
+}
 
 :root {
   --cor__primaria: #000529;
@@ -7,7 +10,7 @@
   --cor__subtitulo: #7FDBFD;
   --cor__menu: #1C1B1B;
   --cor__letra: #FFFFFF;
-  --fonte__padrao: 'Josefin Sans', sans-serif;;
+  --fonte__padrao: 'gemunu', sans-serif;;
   --font__nome: 'Impact', sans-serif;
 }
 
@@ -15,15 +18,7 @@
   box-sizing: border-box;
  }
 
- body {
-  background-image: linear-gradient(269.75deg, var(--cor__secundaria) 9.86%, var(--cor__primaria) 56.99%);
-  background-repeat: repeat;
-  font-family: var(--fonte__padrao);
-  font-weight: 400;
-  color: white;
-}
-
-.cabecalho {
+.borda_superior {
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -4,6 +4,16 @@
   src: url('../fontes/impact.ttf') format('opentype');
 }
 
+:root {
+  --cor__primaria: #000529;
+  --cor__secundaria: #004aad;
+  --cor__subtitulo: #7FDBFD;
+  --cor__menu: #1C1B1B;
+  --cor__letra: #FFFFFF;
+  --fonte__padrao: 'Josefin Sans', sans-serif;;
+  --font__nome: 'Impact', sans-serif;
+}
+
 body {
   background-image: url(../fotos/—Pngtree—blue\ decorative\ curve\ lines_5487237\ 1\ \(1\).png), linear-gradient(269.75deg, var(--cor__secundaria) 9.86%, var(--cor__primaria) 56.99%);
   background-repeat: no-repeat, repeat;

@@ -1,73 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="author" content="Keven Toledo" />
-        <meta name="description" content="Portfólio profissional de Keven Toledo, Desenvolvedor Front-end"/>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Portfólio - Sobre mim</title>
+    <meta name="author" content="Keven Toledo" />
+    <meta name="description" content="Portfólio profissional de Keven Toledo, Desenvolvedor Front-end"/>
 
-        <link rel="stylesheet" type="text/css" href="../estilos/reset.css">
-        <link rel="stylesheet" type="text/css" href="../estilos/main.css">
+    <title>Portfólio - Sobre mim</title>
 
-        <script src="https://kit.fontawesome.com/0b22bcc649.js" crossorigin="anonymous"></script>
-    </head>
-    
-    <body>
-        <div class="cabecalho">
-            <div class="borda-da-pagina"></div>
-            <div class="trapezio"></div>  
-        </div>
+    <link rel="stylesheet" type="text/css" href="../estilos/reset.css">
+    <link rel="stylesheet" type="text/css" href="../estilos/main.css">
+    <link rel="stylesheet" href="../estilos/aboutme.css">
 
-        <header>
-            <h1 class="tituloSombra">BIOGRAFIA</h1>
-            <h2 class="tituloCentral">Sobre Mim</h2>
-        </header>
-        
-        <main>
-            <section>
-                <img src="../fotos/foto-keven-toledo.png" alt="Foto de Perfil">
-                <p class="paragrafoSobreMim">Prazer, me chamo Keven Toledo, sou natural do Rio de Janeiro. Comecei a me interessar por tecnologia no ano de 2021 através da linguagem de programação Python 3, onde me apaixonei pelo desenvolvimento Back-end. </p>
-                <p class="paragrafoSobreMim">Em meados de 2022 decidi avançar em minha carreira como desenvolvedor ingressando na graduação de Análise e Desenvolvimento de Sistemas. Buscando me tornar um profissional multidisciplinar resolvi aprender a tecnologias do Desenvolvimento Front-end para que assim eu possa me tornar um desenvolvedor Full Stack.</p>
-            </section>
-            <section>
-                <h1 class="tituloSombra">Conhecimentos</h1>
-                <h2 class="tituloCentral">Conhecimentos</h2>
-                <h3>Teck Stack</h3>
-                <p>Tecnologias que utilizo</p>
-                <h3>Estudando</h3>
-                <p>Tecnologias que eu tenho estudado</p>
-                <h3>Ferramentas</h3>
-                <p>Ferramentas que utilizo</p>
-            </section>
-            <section>
-                <h1 class="tituloSombra">CERTIFICAÇÕES</h1>
-                <h2 class="tituloCentral">Certificações</h2>
-            </section>
-        </main>
+    <script src="https://kit.fontawesome.com/0b22bcc649.js" crossorigin="anonymous"></script>
+</head>
 
-        <div class="pai_do_menu">
-            <nav class="menu">
-            <a href="../index.html" class="container_link" data-text="Página Inicial">
-                <i class="fa-solid fa-house" aria-hidden="true" title="Página Inicial"></i>
-                <p>Página inicial</p>
-            </a>
-            <a href="./paginas/sobreMim.html" class="container_link" data-text="Sobre mim">
-                <i class="fa-solid fa-user-large" aria-hidden="true" title="Sobre Mim"></i>
-                <p>Sobre mim</p>
-            </a>
-            <a href="./projetos.html" class="container_link" data-text="Projetos">
-                <i class="fa-solid fa-layer-group" aria-hidden="true" title="Projetos"></i>
-                <p>Projetos</p>
-            </a>
-            <a href="./contato.html" class="container_link" data-text="Contato">
-                <i class="fa-solid fa-comments" aria-hidden="true" title="Contato"></i>
-                <p>Contato</p>
-            </a>
-            </nav>
-        </div>
-    </body>
+<body class="corpo">
+    <div class="borda_superior">
+        <div class="borda-da-pagina"></div>
+        <div class="trapezio"></div>  
+    </div>
+
+    <header class="cabecalho">
+        <h1 class="titulo_secundario" data-text="Biografia">Biografia</h1>
+        <h2 class="titulo_principal">Sobre mim</h2>
+    </header>
+
+    <main class="conteudo">
+        <section class="biografia">
+            <div class="container_principal">
+                <p class="biografia_texto">Prazer, me chamo Keven Toledo, sou natural do Rio de Janeiro. Comecei a me interessar por tecnologia no ano de 2021 através da linguagem de programação Python 3, onde me apaixonei pelo desenvolvimento Back-end. </p>
+                <img src="../fotos/foto-keven-toledo.png" alt="Foto de Keven Toledo" class="biografia_foto">
+            </div>
+                <p class="biografia_texto">Em meados de 2022 decidi avançar em minha carreira como desenvolvedor ingressando na graduação de Análise e Desenvolvimento de Sistemas. Buscando me tornar um profissional multidisciplinar resolvi aprender a tecnologias do Desenvolvimento Front-end para que assim eu possa me tornar um desenvolvedor Full Stack.</p>
+            </div>
+        </section>
+
+        <!--<section class="conhecimentos">
+            <h1>Conhecimentos</h1>
+            <h2>Conhecimentos</h2>
+            <h3>Teck Stack</h3>
+            <p>Tecnologias que utilizo</p>
+            <h3>Estudando</h3>
+            <p>Tecnologias que eu tenho estudado</p>
+            <h3>Ferramentas</h3>
+            <p>Ferramentas que utilizo</p>
+        </section>
+
+        <section>
+            <h1 class="tituloSombra">CERTIFICAÇÕES</h1>
+            <h2 class="tituloCentral">Certificações</h2>
+        </section>-->
+    </main>
+
+    <div class="pai_do_menu">
+        <nav class="menu">
+        <a href="../index.html" class="container_link" data-text="Página Inicial">
+            <i class="fa-solid fa-house" aria-hidden="true" title="Página Inicial"></i>
+            <p>Página inicial</p>
+        </a>
+        <a href="./paginas/sobreMim.html" class="container_link" data-text="Sobre mim">
+            <i class="fa-solid fa-user-large" aria-hidden="true" title="Sobre Mim"></i>
+            <p>Sobre mim</p>
+        </a>
+        <a href="./projetos.html" class="container_link" data-text="Projetos">
+            <i class="fa-solid fa-layer-group" aria-hidden="true" title="Projetos"></i>
+            <p>Projetos</p>
+        </a>
+        <a href="./contato.html" class="container_link" data-text="Contato">
+            <i class="fa-solid fa-comments" aria-hidden="true" title="Contato"></i>
+            <p>Contato</p>
+        </a>
+        </nav>
+    </div>
+</body>
 </html>
