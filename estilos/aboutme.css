@@ -1,9 +1,19 @@
 @charset "UFT-8";
 
 :root {
+  --cor__primaria: #000529;
+  --cor__secundaria: #004aad;
+  --cor__menu: #1C1B1B;
   --cor__titulo__maior: rgba(190, 190, 190, 0.285);
   --cor__letra: #FFFFFF;
-  --fonte__padrao: 'gemunu', sans-serif;
+  --fonte__padrao: 'gemunu_regular', sans-serif;
+  --gemunu_regular: 'gemunu_regular', sans-serif;
+  --gemunu_bold: "gemunu_bold", sans-serif;
+  --gemunu_extrabold: "gemunu_extrabold", sans-serif;
+  --gemunu_extralight: "gemunu_extralight", sans-serif;
+  --gemunu_light: "gemunu_light", sans-serif;
+  --gemunu_medium: "gemunu_medium", sans-serif;
+  --gemunu_semibold: "gemunu_semibold", sans-serif;
 }
 
 * {
@@ -12,19 +22,19 @@
 
 .corpo {
   background-image: url(../fotos/pontilhados\ 1.png),linear-gradient(269.75deg, var(--cor__secundaria) 9.86%, var(--cor__primaria) 56.99%);
-  background-repeat:no-repeat, repeat;
-  background-size: 64%, 100vw;
-  background-position: -12% 32%;
+  background-repeat: no-repeat, repeat;
+  background-size: 64%, 100%;
+  background-position: -7% -15%;
   font-family: var(--fonte__padrao);
+  width: 100%;
+  height: 200vh;
   color: white;
 }
 
 .cabecalho {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3.5em;
+  text-align: center;
+  line-height: 0px;
+  margin: 6.5em 0;
 }
 
 .titulo_secundario {
@@ -34,32 +44,26 @@
   text-transform: uppercase;
   color: var(--cor__titulo__maior);
   text-shadow: 5px 2px 2px rgba(101, 101, 101, 0.22);
-  position: relative;
 }
 
 .titulo_principal {
-  position: absolute;
-  padding-top: 20px;
   font-size: 78.7px;
   font-style: normal;
   font-weight: 700;
 }
 .conteudo {
-  display: flex;
-  justify-content: center;
   background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
   background-repeat: no-repeat;
-  background-position: 9% -32%, 90% 239%;
+  background-position: 11% -2%, 91% 25%;
   background-size: 9vh;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .biografia {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50vw;
-  padding-top: 2em;
+  width: 50%;
 }
 
 .container_principal {
@@ -74,10 +78,29 @@
 
 .biografia_texto {
   text-align: justify;
-  font-weight: 500;
-  font-size: 1.2em;
+  font-weight: var(--gemunu_medium);
+  font-size: 1.5em;
   line-height: 1.6em;
   text-indent: 1.6em;
   padding: 20px;
 }
 
+.conhecimentos {
+  text-align: center;
+}
+
+.container_conhecimento {
+  margin-bottom: 6em;
+}
+
+.titulo_conhecimento {
+  font-size: 4em;
+  font-weight: var(--fonte__padrao);
+  font-style: normal;
+}
+
+.subtitulo_conhecimento {
+  font-family: var(--gemunu_extralight);
+  font-size: 2em;
+  font-weight: 'Gemunu Libre ExtraLight';
+}

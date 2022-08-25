@@ -1,17 +1,44 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'gemunu';
-  src: url(../fontes/gemunu_libre/fonts/variable/GemunuLibre[wght].ttf) format('truetype');
+  font-family: 'gemunu_bold';
+  src: url(../fontes/gemunu/gemunu-libre.bold.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gemunu_extrabold';
+  src: url(../fontes/gemunu/gemunu-libre.extrabold.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gemunu_extralight';
+  src: url(../fontes/gemunu/gemunu-libre.extralight.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gemunu_light';
+  src: url(../fontes/gemunu/gemunu-libre.light.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gemunu_medium';
+  src: url(../fontes/gemunu/gemunu-libre.medium.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gemunu_regular';
+  src: url(../fontes/gemunu/gemunu-libre.regular.ttf) format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gemunu_semibold';
+  src: url(../fontes/gemunu/gemunu-libre.semibold.ttf) format('truetype');
+  font-style: normal;
 }
 
 :root {
-  --cor__primaria: #000529;
-  --cor__secundaria: #004aad;
   --cor__subtitulo: #7FDBFD;
   --cor__menu: #1C1B1B;
   --cor__letra: #FFFFFF;
-  --fonte__padrao: 'gemunu', sans-serif;;
-  --font__nome: 'Impact', sans-serif;
 }
 
 * {
