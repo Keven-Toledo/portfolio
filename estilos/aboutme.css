@@ -191,7 +191,7 @@
 .tec {
   font-size: 5em;
   padding: 19px;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s;
 }
 
 .tec:hover {
