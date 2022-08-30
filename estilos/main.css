@@ -64,6 +64,7 @@
   border-radius: 20px 20px 0px 0px;
   width: 60vw;
   position: fixed;
+  z-index: 5;
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
