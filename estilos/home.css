@@ -56,7 +56,7 @@ body {
   margin: 8em;
 }
 
-.conteudo__titulo {
+.conteudo__titulo > h2 {
   font-family: var(--font__nome);
   text-transform: uppercase;
   text-shadow: 5px 0px 0px #656565;
@@ -65,7 +65,7 @@ body {
   margin: 0.2em 0;
 }
 
-.conteudo__subtitulo {
+.conteudo__subtitulo > p{
   font-family: var(--fonte__padrao);
   font-weight: 400;
   font-size: 2.6em;
@@ -153,11 +153,11 @@ body {
     padding-top: 0em;
   }
   
-  .conteudo__titulo {
+  .conteudo__titulo > h2 {
     font-size: 8em;
   }
 
-  .conteudo__subtitulo {
+  .conteudo__subtitulo > p {
     font-size: 1.9em
   }
   .pai_do_menu{
@@ -200,11 +200,11 @@ body {
     text-align: center;
     margin: 8em 0;
   }
-  .conteudo__titulo {
+  .conteudo__titulo > h2 {
     font-size: 11em;
   }
 
-  .conteudo__subtitulo {
+  .conteudo__subtitulo > p {
     font-size: 3em
   }
 }
@@ -235,11 +235,11 @@ body {
     padding-top: 6em;
   }
   
-  .conteudo__titulo {
-    font-size: 9em;
+  .conteudo__titulo > h2 {
+    font-size: max(9em, 20vw);
   }
 
-  .conteudo__subtitulo {
+  .conteudo__subtitulo > p {
     font-size: 2.9em;
   }
 
@@ -297,7 +297,7 @@ body {
     padding-top: 8em;
   }
   
-  .conteudo__titulo {
+  .conteudo__titulo > h2 {
     font-family: var(--font__nome);
     text-transform: uppercase;
     text-shadow: 5px 0px 0px #656565;
@@ -306,7 +306,7 @@ body {
     text-align: center;
     margin: 0.2em 0;
   }
-  .conteudo__subtitulo {
+  .conteudo__subtitulo > p {
     font-size: 26px;
     width: 184px;
     margin: -24px 67px;
