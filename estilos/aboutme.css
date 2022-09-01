@@ -73,11 +73,11 @@
 }
 
 .conteudo {
-  background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
+  background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
   background-repeat: no-repeat;
-  background-position: 11% -2%, 91% 25%;
+  background-position: 11% -2%, 91% 25%, 11% 44%, 91% 63%, 11% 84%, 91% 100%;
   background-size: 9vh;
-  height: 200vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
