@@ -222,10 +222,10 @@
 }
 .fa-python:hover{
   text-shadow: 
-  3px 2px 0px #0e5a90, 
-  0px 0px 10px #1276bd,  
-  0px 0px 20px #1276bd, 
-  0px 0px 30px #1276bd ;  
+    3px 2px 0px #0e5a90, 
+    0px 0px 10px #1276bd,  
+    0px 0px 20px #1276bd, 
+    0px 0px 30px #1276bd;  
   transform: scale(1.2);
 }
 .iconmysql_original_logo_icon_146416:hover{
@@ -238,10 +238,92 @@
 }
 .fa-git-alt:hover{
   text-shadow: 
-  3px 2px 0px #DD4C35, 
-  0px 0px 10px #DD4C35,  
-  0px 0px 20px #DD4C35, 
-  0px 0px 30px #DD4C35;
+    3px 2px 0px #DD4C35, 
+    0px 0px 10px #DD4C35,  
+    0px 0px 20px #DD4C35, 
+    0px 0px 30px #DD4C35;
+  transform: scale(1.2);
+}
+.fa-bootstrap:hover{
+  text-shadow: 
+    4px 2px 0px #5B4282, 
+    0px 0px 10px #5B4282,  
+    0px 0px 20px #5B4282, 
+    0px 0px 30px #5B4282,
+    0px 0px 30px #5B4282;
+  transform: scale(1.2);
+}
+.fa-angular:hover{
+  text-shadow: 
+    3px 2px 0px #C3002F, 
+    0px 0px 10px #DD0031,  
+    0px 0px 20px #DD0031, 
+    0px 0px 30px #DD0031;
+  transform: scale(1.2);
+}
+.fa-github:hover{
+  text-shadow: 
+    3px 2px 0px #000000, 
+    0px 0px 10px #000000,  
+    0px 0px 20px #000000, 
+    0px 0px 30px #000000;
+  transform: scale(1.2);
+}
+.iconvscode:hover{
+  text-shadow: 
+    3px 2px 0px #0065A9, 
+    0px 0px 10px #007ACC,  
+    0px 0px 20px #007ACC, 
+    0px 0px 30px #1F9CF0;
+  transform: scale(1.2);
+}
+.iconscrum:hover{
+  text-shadow: 
+    3px 2px 0px #24a500, 
+    0px 0px 10px #62ff00,  
+    0px 0px 20px #62ff00, 
+    0px 0px 30px #62ff00;
+  transform: scale(1.2);
+}
+.iconword:hover{
+  text-shadow: 
+    3px 2px 0px #103E91, 
+    0px 0px 10px #195ABE,  
+    0px 0px 20px #195ABE, 
+    0px 0px 30px #41A5ED;
+  transform: scale(1.2);
+}
+.iconOutlook:hover{
+  text-shadow: 
+    3px 2px 0px #0464B8, 
+    0px 0px 10px #29A7EB,  
+    0px 0px 20px #29A7EB, 
+    0px 0px 30px #29A7EB;
+  transform: scale(1.2);
+}
+.iconexcel:hover{
+  text-shadow: 
+    3px 2px 0px #185B37, 
+    0px 0px 10px #17864C,  
+    0px 0px 20px #17864C, 
+    0px 0px 30px #17864C;
+  transform: scale(1.2);
+}
+.iconpowerbi:hover{
+  text-shadow: 
+    3px 2px 0px #c0980a, 
+    0px 0px 10px #EDBD11,  
+    0px 0px 20px #EDBD11, 
+    0px 0px 30px #EDBD11;
+  transform: scale(1.2);
+}
+.fa-figma:hover{
+  text-shadow: 
+    3px 2px 0px #FF7262, 
+    0px 0px 10px #FF7262,  
+    0px 0px 10px #A259FF, 
+    0px 0px 10px #1ABCFE,
+    0px 0px 10px #0ACF83;
   transform: scale(1.2);
 }
 
