@@ -192,8 +192,8 @@ body {
   .conteudo {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    height: 60%;
+    align-items: center;
+    height: 100%;
   }
   
   .conteudo__escrito {
