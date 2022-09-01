@@ -118,7 +118,7 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 1200px), (orientation: landscape) {
+@media (max-width: 1200px) {
   body {
     background-size: 100vw, 100vw;
     background-position: center left;
@@ -127,7 +127,7 @@ body {
   }
 }
 
-@media (max-width: 1024px), (orientation: landscape) {
+@media (max-width: 1024px) {
   body {
     background-size: 100vw, 100vw;
     background-position: center left;
