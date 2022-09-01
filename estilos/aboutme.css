@@ -70,6 +70,7 @@
   font-size: 4em;
   font-style: normal;
   font-weight: 700;
+  letter-spacing: 6.5px;
 }
 
 .conteudo {
@@ -122,6 +123,7 @@
 .foto > img {
   width: 100%;
   border-radius: 50%;
+  box-shadow: -4px 4px 1px rgba(15, 15, 15, 0.277);
 }
 
 .texto2 {
@@ -331,16 +333,16 @@
 
 
 
-@media (max-width: 1200px) {}
-@media (max-width: 1024px) {}
-@media (max-width: 768px) {}
-@media (max-width: 480px) {
-  .trapezio {
-    width: 195px;
-  }
+@media (max-width: 1024px) {
   .conteudo {
     background-image: none;
   }
+}
+@media (max-width: 768px) {
+  .conteudo {
+    background-image: none;
+  }
+
   .texto1 {
     grid-column: 1 / 4;
     grid-row: 1;
@@ -349,7 +351,7 @@
   .texto1 > p {
       text-align: justify;
       font-weight: var(--gemunu_regular);
-      font-size: max(1.2em, 6vw);
+      font-size: max(1.2em, 5vw);
       line-height: 1.2em;
       text-indent: 1.3em;
   }
@@ -370,9 +372,66 @@
   .texto2 > p {
       text-align: justify;
       font-weight: var(--gemunu_regular);
-      font-size: max(1.2em, 6vw);
+      font-size: max(1.2em, 5vw);
       line-height: 1.2em;
       text-indent: 1.3em;
+  }
+  .secundario_responsivo_bio {
+    font-size: calc(1em + 18vw);
+  }
+
+  .secundario_responsivo_co {
+    font-size: calc(1.01em + 14vw);
+  }
+
+  .secundario_responsivo_cer {
+    font-size: calc(1.01em + 13vw);
+  }
+  
+  .primario_responsivo_bio {
+    font-size: calc(1.01em + 10vw);
+  }
+  
+  .primario_responsivo_co {
+    font-size: calc(1.01em + 6vw)
+  }
+  
+  .primario_responsivo_cer {
+    font-size: calc(1.01em + 7vw);
+  }
+
+  .container_conhecimento {
+    max-width: 550px;
+  }
+
+  .pai_do_menu{
+    width: 100vw;
+    padding: 10px 0;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .container_link {
+    color: var(--cor__letra);
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 30px;
+    display: block;
+    width: 100%;
+  }
+  .container_link:hover {
+    color: var(--cor__letra);
+    text-shadow: 0px 0px 20px var(--cor__subtitulo), 0px 0px 20px var(--cor__subtitulo);
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 480px) {
+  .trapezio {
+    width: 195px;
   }
 
   .secundario_responsivo_bio {
@@ -405,11 +464,9 @@
   .subtitulo_conhecimento {
     font-size: max(1em, 6vw);
   }
-
   .tec {
     font-size: max(3em, 17vw);
   }
-
   .icones {
     gap: 0px;
   }
@@ -418,27 +475,7 @@
     gap: 2em;
   }
 
-  .pai_do_menu{
-    width: 100vw;
-    padding: 10px 0;
-  }
-  .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
   .container_link {
-    color: var(--cor__letra);
     font-size: 0.6em;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 30px;
-    display: block;
-    width: 100%;
-  }
-  .container_link:hover {
-    color: var(--cor__letra);
-    text-shadow: 0px 0px 20px var(--cor__subtitulo), 0px 0px 20px var(--cor__subtitulo);
-    font-size: 10px;
   }
 }
