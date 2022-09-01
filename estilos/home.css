@@ -201,11 +201,15 @@ body {
     margin: 8em 0;
   }
   .conteudo__titulo > h2 {
-    font-size: 11em;
+    font-size: 8em;
   }
 
   .conteudo__subtitulo > p {
     font-size: 3em
+  }
+
+  .pai_do_menu {
+    width: 100%;
   }
 }
 
@@ -232,7 +236,7 @@ body {
     text-align: center;  }
 
   .conteudo__escrito {
-    padding-top: 6em;
+    padding-top: 0em;
   }
   
   .conteudo__titulo > h2 {
@@ -253,7 +257,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
   }
-
+  /* Bloco do ícone + nome */
   .container_link {
     color: var(--cor__letra);
     font-size: 1em;
@@ -264,14 +268,7 @@ body {
     width: 100%;
   }
 
-  .container_link:hover {
-    color: var(--cor__letra);
-  text-shadow: 0px 0px 20px var(--cor__subtitulo), 0px 0px 20px var(--cor__subtitulo);
-    transform: scale(1.1);
 }
-
-}
-
 @media (max-width: 480px) {
 
   body {
@@ -341,6 +338,3 @@ body {
   }
 
 }
-
-
-
