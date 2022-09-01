@@ -75,7 +75,7 @@ body {
 .conteudo__subtitulo::before {
   position: absolute;
   content: attr(data-text);
-  text-shadow: 0px 0px 20px var(--cor__subtitulo);
+  text-shadow: 0px 0px 10px var(--cor__subtitulo);
   filter: blur(10px) brightness(0);
   animation: flicker 2s linear forwards;
   animation-delay: 1s;
@@ -118,7 +118,7 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 1200px) {
+@media (max-width: 1200px), (orientation: landscape) {
   body {
     background-size: 100vw, 100vw;
     background-position: center left;
@@ -127,7 +127,7 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px), (orientation: landscape) {
   body {
     background-size: 100vw, 100vw;
     background-position: center left;
