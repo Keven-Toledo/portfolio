@@ -349,7 +349,7 @@
   .texto1 > p {
       text-align: justify;
       font-weight: var(--gemunu_regular);
-      font-size: 1.2em;
+      font-size: max(1.2em, 6vw);
       line-height: 1.2em;
       text-indent: 1.3em;
   }
@@ -370,34 +370,54 @@
   .texto2 > p {
       text-align: justify;
       font-weight: var(--gemunu_regular);
-      font-size: 1.2em;
+      font-size: max(1.2em, 6vw);
       line-height: 1.2em;
       text-indent: 1.3em;
   }
 
   .secundario_responsivo_bio {
-    font-size: 3em;
+    font-size: calc(1em + 18vw);
   }
 
   .secundario_responsivo_co {
-    font-size: 3em;
+    font-size: calc(1.01em + 14vw);
   }
 
   .secundario_responsivo_cer {
-    font-size: 3em;
+    font-size: calc(1.01em + 13vw);
   }
   
   .primario_responsivo_bio {
-    font-size: 2em;
+    font-size: calc(1.01em + 10vw);
   }
   
   .primario_responsivo_co {
-    font-size: 2em;
+    font-size: calc(1.01em + 6vw)
   }
   
   .primario_responsivo_cer {
-    font-size: 2em;
+    font-size: calc(1.01em + 7vw);
   }
+
+  .titulo_conhecimento {
+    font-size: max(2em, 8vw);
+  }
+  .subtitulo_conhecimento {
+    font-size: max(1em, 6vw);
+  }
+
+  .tec {
+    font-size: max(3em, 17vw);
+  }
+
+  .icones {
+    gap: 0px;
+  }
+
+  .conhecimentos {
+    gap: 2em;
+  }
+
   .pai_do_menu{
     width: 100vw;
     padding: 10px 0;
