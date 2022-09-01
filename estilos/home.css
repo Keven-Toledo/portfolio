@@ -248,7 +248,7 @@ body {
 @media (max-width: 480px) {
 
   body {
-    background-size: 100vw, 100vw;
+    background-size: 200vw, 100vw;
     background-position: center left;
     background-position-x: center;
     background-position-y: bottom;
