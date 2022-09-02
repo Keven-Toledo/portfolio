@@ -76,7 +76,7 @@
 .conteudo {
   background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
   background-repeat: no-repeat;
-  background-position: 11% 4%, 91% 17%, 11% 35%, 91% 49%, 11% 67%, 91% 88%;
+  background-position: 5% 4%, 95% 17%, 11% 35%, 91% 49%, 11% 67%, 91% 88%;
   background-size: 9vh;
   height: 100%;
   display: flex;
@@ -328,8 +328,6 @@
     0px 0px 10px #0ACF83;
   transform: scale(1.2);
 }
-
-
 
 
 
