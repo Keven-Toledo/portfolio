@@ -129,7 +129,7 @@
 .texto2 {
   grid-column: 1 / 4;
   grid-row: 2;
-  padding: 0px 17px;
+  padding: 0px 17px 17px;
 }
 
 .texto2 > p {
