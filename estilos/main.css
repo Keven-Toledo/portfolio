@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 5;
 }
 
 .borda-da-pagina {
@@ -56,6 +57,7 @@
   width: 100vw;
   background-color: black;
   position: fixed;
+  z-index: 5;
 }
 
 .trapezio {
