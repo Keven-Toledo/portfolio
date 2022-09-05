@@ -63,6 +63,7 @@
 /* Reset das caixas */
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
  }
 
  /* Decoração Superior do Site */
