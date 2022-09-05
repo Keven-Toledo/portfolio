@@ -17,6 +17,7 @@
 
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .corpo {
@@ -50,6 +51,7 @@
 
 .titulo_secundario {
   position: relative;
+  font-family: var(--gemunu_extrabold);
   font-size: clamp(5rem, 20.5vw, 8.8rem);
   font-style: normal;
   font-weight: bolder;
