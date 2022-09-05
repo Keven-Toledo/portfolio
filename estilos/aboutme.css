@@ -25,26 +25,6 @@
   padding: 4.5em 0 1.5em 0;
 }
 
-.titulo_secundario {
-  position: relative;
-  font-family: var(--gemunu_extrabold);
-  font-size: 8.9em;
-  font-style: normal;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: var(--cor__titulo__maior);
-  text-shadow: 5px 2px 2px rgba(101, 101, 101, 0.22);
-}
-
-.titulo_principal {
-  position: absolute;
-  font-family: var(--gemunu_bold);
-  font-size: 4.91875em;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 6.5px;
-}
-
 .conteudo {
   background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
   background-repeat: no-repeat;
@@ -346,84 +326,12 @@
       line-height: 1.2em;
       text-indent: 1.3em;
   }
-  .secundario_responsivo_bio {
-    font-size: calc(1em + 18vw);
-  }
-
-  .secundario_responsivo_co {
-    font-size: calc(1.01em + 14vw);
-  }
-
-  .secundario_responsivo_cer {
-    font-size: calc(1.01em + 13vw);
-  }
-  
-  .primario_responsivo_bio {
-    font-size: calc(1.01em + 10vw);
-  }
-  
-  .primario_responsivo_co {
-    font-size: calc(1.01em + 6vw)
-  }
-  
-  .primario_responsivo_cer {
-    font-size: calc(1.01em + 7vw);
-  }
 
   .container_conhecimento {
     max-width: 550px;
   }
-
-  .pai_do_menu{
-    width: 100vw;
-    padding: 10px 0;
-  }
-
-  .menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .container_link {
-    color: var(--cor__letra);
-    font-size: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    line-height: 30px;
-    display: block;
-    width: 100%;
-  }
-  .container_link:hover {
-    color: var(--cor__letra);
-    text-shadow: 0px 0px 20px var(--cor__subtitulo), 0px 0px 20px var(--cor__subtitulo);
-    transform: scale(1.1);
-  }
 }
 @media (max-width: 480px) {
-  .secundario_responsivo_bio {
-    font-size: calc(1em + 18vw);
-  }
-
-  .secundario_responsivo_co {
-    font-size: calc(1.01em + 14vw);
-  }
-
-  .secundario_responsivo_cer {
-    font-size: calc(1.01em + 13vw);
-  }
-  
-  .primario_responsivo_bio {
-    font-size: calc(1.01em + 10vw);
-  }
-  
-  .primario_responsivo_co {
-    font-size: calc(1.01em + 6vw)
-  }
-  
-  .primario_responsivo_cer {
-    font-size: calc(1.01em + 7vw);
-  }
-
   .titulo_conhecimento {
     font-size: max(2em, 8vw);
   }

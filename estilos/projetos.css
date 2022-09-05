@@ -32,27 +32,6 @@
   padding: 4.5em 0 1.5em 0;
 }
 
-.titulo_secundario {
-  position: relative;
-  font-family: var(--gemunu_extrabold);
-  font-size: clamp(5rem, 20.5vw, 8.8rem);
-  font-style: normal;
-  font-weight: bolder;
-  text-transform: uppercase;
-  color: var(--cor__titulo__maior);
-  text-shadow: 5px 2px 2px rgba(101, 101, 101, 0.22);
-  letter-spacing: 4px;
-}
-
-.titulo_principal {
-  position: absolute;
-  font-family: var(--gemunu_bold);
-  font-size: clamp(3em, 14.5vw, 5em);
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 6.5px;
-}
-
 .container_imagem {
   max-width: 800px;
   margin: 0 auto 6em;

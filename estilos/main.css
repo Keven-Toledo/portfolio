@@ -67,6 +67,7 @@
  }
 
  /* Decoração Superior do Site */
+
  /* Container Superior */
 .borda_superior {
   display: flex;
@@ -95,7 +96,33 @@
   z-index: 5;
 }
 
-/* Configurações da Barra de Menu */
+/***** Configuração de Títulos: Sobre mim, Projetos e Contato *****/
+
+.titulo_secundario {
+  position: relative;
+  font-family: var(--gemunu_extrabold);
+  font-size: clamp(4rem, 20.5vw, 8.8rem);
+  font-style: normal;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: var(--cor__titulo__maior);
+  text-shadow: 5px 2px 2px rgba(101, 101, 101, 0.22);
+  letter-spacing: 4px;
+}
+
+.titulo_principal {
+  position: absolute;
+  font-family: var(--gemunu_bold);
+  font-size: clamp(3em, 14.5vw, 5em);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 6.5px;
+}
+
+
+
+/***** Configurações da Barra de Menu ******/
+
 /* Container principal do menu */
 .pai_do_menu{
   background-color: var(--cor__menu);
