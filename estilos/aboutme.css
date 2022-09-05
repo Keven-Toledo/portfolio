@@ -1,24 +1,9 @@
 @charset "UFT-8";
 
-:root {
-  --cor__primaria: #000529;
-  --cor__secundaria: #004aad;
-  --cor__menu: #1C1B1B;
-  --cor__html: #ff8000;
-  --cor__titulo__maior: rgba(190, 190, 190, 0.285);
-  --cor__letra: #FFFFFF;
-  --fonte__padrao: 'gemunu_regular', sans-serif;
-  --gemunu_regular: 'gemunu_regular', sans-serif;
-  --gemunu_bold: "gemunu_bold", sans-serif;
-  --gemunu_extrabold: "gemunu_extrabold", sans-serif;
-  --gemunu_extralight: "gemunu_extralight", sans-serif;
-  --gemunu_light: "gemunu_light", sans-serif;
-  --gemunu_medium: "gemunu_medium", sans-serif;
-  --gemunu_semibold: "gemunu_semibold", sans-serif;
-}
-
 * {
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
 }
 
 .corpo {
@@ -30,20 +15,6 @@
   width: 100%;
   height: 100%;
   color: white;
-}
-
-.borda_superior {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.borda-da-pagina {
-  height: 21px;
-  width: 100vw;
-  background-color: black;
-  position: fixed;
-  z-index: 5;
 }
 
 .cabecalho {
@@ -429,10 +400,6 @@
   }
 }
 @media (max-width: 480px) {
-  .trapezio {
-    width: 195px;
-  }
-
   .secundario_responsivo_bio {
     font-size: calc(1em + 18vw);
   }

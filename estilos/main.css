@@ -36,9 +36,22 @@
 }
 
 :root {
+  --cor__primaria: #000529;
+  --cor__secundaria: #004aad;
   --cor__subtitulo: #7FDBFD;
   --cor__menu: #1C1B1B;
   --cor__letra: #FFFFFF;
+  --cor__html: #ff8000;
+  --cor__titulo__maior: rgba(190, 190, 190, 0.285);
+  --fonte__padrao: 'gemunu_regular', sans-serif;
+  --gemunu_regular: 'gemunu_regular', sans-serif;
+  --gemunu_bold: "gemunu_bold", sans-serif;
+  --gemunu_extrabold: "gemunu_extrabold", sans-serif;
+  --gemunu_extralight: "gemunu_extralight", sans-serif;
+  --gemunu_light: "gemunu_light", sans-serif;
+  --gemunu_medium: "gemunu_medium", sans-serif;
+  --gemunu_semibold: "gemunu_semibold", sans-serif;
+  --font__nome: 'Impact', sans-serif;
 }
 
 * {
