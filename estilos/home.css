@@ -1,8 +1,5 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'Impact';
-  src: url('../fontes/impact.ttf') format('opentype');
-}
+
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;

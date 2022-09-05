@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Importação Fontes */
 @font-face {
   font-family: 'gemunu_bold';
   src: url(../fontes/gemunu/gemunu-libre.bold.ttf) format('truetype');
@@ -34,7 +35,12 @@
   src: url(../fontes/gemunu/gemunu-libre.semibold.ttf) format('truetype');
   font-style: normal;
 }
+@font-face {
+  font-family: 'Impact';
+  src: url('../fontes/impact.ttf') format('opentype');
+}
 
+/* Root do portfólio */
 :root {
   --cor__primaria: #000529;
   --cor__secundaria: #004aad;
@@ -54,17 +60,20 @@
   --font__nome: 'Impact', sans-serif;
 }
 
+/* Reset das caixas */
 * {
   box-sizing: border-box;
  }
 
+ /* Decoração Superior do Site */
+ /* Container Superior */
 .borda_superior {
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 5;
 }
-
+/* Borda da página */
 .borda-da-pagina {
   height: 21px;
   width: 100vw;
@@ -72,7 +81,7 @@
   position: fixed;
   z-index: 5;
 }
-
+/* Trapézio decorativo */
 .trapezio {
   position: fixed;
   top: 15px;
@@ -85,6 +94,8 @@
   z-index: 5;
 }
 
+/* Configurações da Barra de Menu */
+/* Container principal do menu */
 .pai_do_menu{
   background-color: var(--cor__menu);
   box-shadow: 0px -2px 4px #3F3D3D;
@@ -97,13 +108,13 @@
   transform: translate(-50%);
   padding: 10px 0;
 }
-
+/* Caixa do Menu */
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
+/* Caixa do ícone e do nome */
 .container_link {
   color: var(--cor__letra);
   font-size: 1em;
@@ -115,18 +126,16 @@
   width: 100%;
   transition: all 0.5s ease-in-out;
 }
-
 /* Ativa o neon e a escala dos ícones */
 .container_link:hover {
   color: var(--cor__letra);
   text-shadow: 0px 0px 20px var(--cor__subtitulo), 0px 0px 20px var(--cor__subtitulo);
   transform: scale(1.1);
 }
-
+/* Configura o tamanho dos ícones */
 .fa-solid {
   font-size: 2em;
 }
-
 /* Simbolo de alerta desabilitado */
 .container_link > div > .fa-circle-exclamation{
   display: none;
@@ -135,12 +144,10 @@
 .container_link:hover > div > .fa-layer-group {
   display: none;
 }
-
 /* Simbolo de Contatos é desabilitado */
 .container_link:hover > div > .fa-comments {
   display: none;
 }
-
 /* Simbolo de alerta é Habilitado com novas cores */
 .container_link:hover > div > .fa-circle-exclamation{
   display: inline-block;
