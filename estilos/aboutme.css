@@ -118,144 +118,165 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
   gap: 10px;
+}
+/**** Divs dos ícones ****/
+.div_icones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  position: relative;
+  margin: 19px 19px 42px;
+}
+/**** Divs dos ícones em hover ****/
+.icones > div:hover {
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+/**** Nome dos ícones ****/
+.nome_icone {
+ font-size: clamp(0.9em,2.5vw,1.3em);
+ position: absolute;
+ bottom: -28px;
 }
 /**** Tamanho dos ícones ****/
 .tec {
   font-size: 5em;
-  padding: 19px;
-  transition: all 0.5s;
 }
+
 /**** Bloco das animações de cores para cada ícone ****/
-.fa-html5:hover{
+.fa-html5:hover, 
+.icones > div:hover .html5{
   text-shadow: 
     3px 2px 0px var(--cor__html), 
     0px 0px 10px var(--cor__html), 
     0px 0px 20px var(--cor__html), 
     0px 0px 30px var(--cor__html);
-  transform: scale(1.2);
 }
-.fa-css3-alt:hover{
+.fa-css3-alt:hover, 
+.icones > div:hover .css3{
   text-shadow: 
     3px 2px 0px #1572B6, 
     0px 0px 10px #1572B6,  
     0px 0px 20px #1572B6, 
     0px 0px 30px #1572B6;
-  transform: scale(1.2);
 }
-.fa-square-js:hover{
+.fa-square-js:hover, 
+.icones > div:hover .js{
   text-shadow: 
     3px 2px 0px #F0DB4F, 
     0px 0px 10px #F0DB4F,  
     0px 0px 20px #F0DB4F, 
     0px 0px 30px #F0DB4F;
-  transform: scale(1.2);
 }
-.fa-python:hover{
+.fa-python:hover, 
+.icones > div:hover .python{
   text-shadow: 
     3px 2px 0px #0e5a90, 
     0px 0px 10px #1276bd,  
     0px 0px 20px #1276bd, 
-    0px 0px 30px #1276bd;  
-  transform: scale(1.2);
+    0px 0px 30px #1276bd;
 }
-.iconmysql_original_logo_icon_146416:hover{
+.iconmysql_original_logo_icon_146416:hover, 
+.icones > div:hover .mysql{
   text-shadow: 
     3px 2px 0px #1572B6, 
     0px 0px 10px #1572B6,  
     0px 0px 20px #1572B6, 
-    0px 0px 30px #1572B6; 
-  transform: scale(1.2);
+    0px 0px 30px #1572B6;
 }
-.fa-git-alt:hover{
+.fa-git-alt:hover, 
+.icones > div:hover .git{
   text-shadow: 
     3px 2px 0px #DD4C35, 
     0px 0px 10px #DD4C35,  
     0px 0px 20px #DD4C35, 
     0px 0px 30px #DD4C35;
-  transform: scale(1.2);
 }
-.fa-bootstrap:hover{
+.fa-bootstrap:hover, 
+.icones > div:hover .bootstrap{
   text-shadow: 
     4px 2px 0px #5B4282, 
     0px 0px 10px #5B4282,  
     0px 0px 20px #5B4282, 
     0px 0px 30px #5B4282,
     0px 0px 30px #5B4282;
-  transform: scale(1.2);
 }
-.fa-angular:hover{
+.fa-angular:hover, 
+.icones > div:hover .angular{
   text-shadow: 
     3px 2px 0px #C3002F, 
     0px 0px 10px #DD0031,  
     0px 0px 20px #DD0031, 
     0px 0px 30px #DD0031;
-  transform: scale(1.2);
 }
-.fa-github:hover{
+.fa-github:hover, 
+.icones > div:hover .github{
   text-shadow: 
     3px 2px 0px #000000, 
     0px 0px 10px #000000,  
     0px 0px 20px #000000, 
     0px 0px 30px #000000;
-  transform: scale(1.2);
 }
-.iconvscode:hover{
+.iconvscode:hover, 
+.icones > div:hover .vscode{
   text-shadow: 
     3px 2px 0px #0065A9, 
     0px 0px 10px #007ACC,  
     0px 0px 20px #007ACC, 
     0px 0px 30px #1F9CF0;
-  transform: scale(1.2);
 }
-.iconscrum:hover{
+.iconscrum:hover, 
+.icones > div:hover .scrum{
   text-shadow: 
     3px 2px 0px #24a500, 
     0px 0px 10px #62ff00,  
     0px 0px 20px #62ff00, 
     0px 0px 30px #62ff00;
-  transform: scale(1.2);
 }
-.iconword:hover{
+.iconword:hover, 
+.icones > div:hover .word{
   text-shadow: 
     3px 2px 0px #103E91, 
     0px 0px 10px #195ABE,  
     0px 0px 20px #195ABE, 
     0px 0px 30px #41A5ED;
-  transform: scale(1.2);
 }
-.iconOutlook:hover{
+.iconOutlook:hover, 
+.icones > div:hover .Outlook{
   text-shadow: 
     3px 2px 0px #0464B8, 
     0px 0px 10px #29A7EB,  
     0px 0px 20px #29A7EB, 
     0px 0px 30px #29A7EB;
-  transform: scale(1.2);
 }
-.iconexcel:hover{
+.iconexcel:hover, 
+.icones > div:hover .excel{
   text-shadow: 
     3px 2px 0px #185B37, 
     0px 0px 10px #17864C,  
     0px 0px 20px #17864C, 
     0px 0px 30px #17864C;
-  transform: scale(1.2);
 }
-.iconpowerbi:hover{
+.iconpowerbi:hover, 
+.icones > div:hover .powerbi{
   text-shadow: 
     3px 2px 0px #c0980a, 
     0px 0px 10px #EDBD11,  
     0px 0px 20px #EDBD11, 
     0px 0px 30px #EDBD11;
-  transform: scale(1.2);
 }
-.fa-figma:hover{
+.fa-figma:hover, 
+.icones > div:hover .figma{
   text-shadow: 
     3px 2px 0px #FF7262, 
     0px 0px 10px #FF7262,  
     0px 0px 10px #A259FF, 
     0px 0px 10px #1ABCFE,
     0px 0px 10px #0ACF83;
-  transform: scale(1.2);
 }
 
 /**** MEDIA QUERYS ****/
