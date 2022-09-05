@@ -3,33 +3,9 @@
   -webkit-box-sizing: border-box;
 }
 
-.corpo {
-  background-image: url(../fotos/pontilhado.png),linear-gradient(269.75deg, var(--cor__secundaria) 9.86%, var(--cor__primaria) 56.99%);
-  background-repeat: repeat-y, repeat;
-  background-size: 100%, 100%;
-  background-position: left top;
-  font-family: var(--fonte__padrao);
-  width: 100%;
-  color: white;
-}
-
 .conteudo {
   background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
-  background-repeat: no-repeat;
   background-position: 11% 12%, 91% 49%, 11% 84%;
-  background-size: 9vh;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cabecalho {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4.5em 0 1.5em 0;
 }
 
 .container_imagem {

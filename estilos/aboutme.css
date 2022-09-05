@@ -6,34 +6,9 @@
 
 }
 
-.corpo {
-  background-image: url(../fotos/pontilhado.png),linear-gradient(269.75deg, var(--cor__secundaria) 9.86%, var(--cor__primaria) 56.99%);
-  background-repeat: repeat-y, repeat;
-  background-size: 100%, 100%;
-  background-position: left;
-  font-family: var(--fonte__padrao);
-  width: 100%;
-  height: 100%;
-  color: white;
-}
-
-.cabecalho {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 4.5em 0 1.5em 0;
-}
-
 .conteudo {
   background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
-  background-repeat: no-repeat;
-  background-position: 5% 4%, 95% 17%, 11% 35%, 91% 49%, 11% 67%, 91% 88%;
-  background-size: 9vh;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-position: 5% 4%, 95% 17%, 11% 35%, 91% 49%, 11% 67%, 91% 91%;
 }
 
 .biografia {
