@@ -291,7 +291,6 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    gap: 2em;
     padding-top: 8em;
   }
   
@@ -307,7 +306,6 @@ body {
   .conteudo__subtitulo{
     font-size: 26px;
     width: 184px;
-    margin: -24px 67px;
     text-align: center;
   }
   
