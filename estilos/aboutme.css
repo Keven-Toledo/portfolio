@@ -101,14 +101,14 @@
 }
 
 .titulo_conhecimento {
-  font-size: 4em;
+  font-size: clamp(2em, 9.5vw, 4em);
   font-weight: var(--fonte__padrao);
   font-style: normal;
 }
 
 .subtitulo_conhecimento {
   font-family: var(--gemunu_extralight);
-  font-size: 2em;
+  font-size: clamp(1em, 6.5vw, 2em);
   font-weight: 'Gemunu Libre ExtraLight';
 }
 
@@ -307,12 +307,6 @@
   }
 }
 @media (max-width: 480px) {
-  .titulo_conhecimento {
-    font-size: max(2em, 8vw);
-  }
-  .subtitulo_conhecimento {
-    font-size: max(1em, 6vw);
-  }
   .tec {
     font-size: max(3em, 17vw);
   }
