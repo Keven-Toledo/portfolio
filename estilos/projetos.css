@@ -24,42 +24,56 @@
   min-width: 300px;
   min-height: 180px;
   margin: 10px;
-  background-color: #C7D0D8;
+  background-color: black;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.2s ease-in-out;
   cursor: pointer;
+  overflow: hidden;
+  position: relative;
 }
 
-.imagem > .texto1 {
-  font-family: var(--gemunu_extrabold);
-  font-size: 3em;
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
-  color: transparent;
-  text-transform: uppercase;
-  transition: all 0.5s ease-in-out;
+.foto_projeto {
+  width: 100%;
+  border-radius: 20px;
 }
 
-.imagem > .texto2 {
-  font-family: var(--gemunu_extrabold);
-  font-size: 3.9375em;
-  color: #FFDE59;
-  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-  text-transform: uppercase;
-  transition: all 0.5s ease-in-out;
+.titulo_projeto {
+  display: none;
+  position: absolute;
+  font-size: 1.7em;
+  bottom: 26px;
+  left: 25px;
+}
+
+.imagem .criador {
+  display: none;
+  position: absolute;
+  font-size: 1em;
+  bottom: 10px;
+  left: 25px;
 }
 
 .imagem:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   box-shadow: 0px 0px 20px #008AFF, inset 0px 0px 10px #008AFF !important;
   border: 2px solid #008AFF;
+  transition: all .1s ease-in-out;
 }
 
-.imagem:hover p {
-  transform: scale(1.1);
+.foto_projeto:hover {
+  -webkit-mask-image: linear-gradient(360deg, rgba(217, 217, 217, 0) 1%, rgba(0, 0, 0, 0.79) 69.58%);
+	background-image: url(../fotos/Background\ projeto.png);
+}
+
+.imagem:hover .criador {
+  display: inline;
+}
+
+.imagem:hover .titulo_projeto {
+  display: inline;
 }
 
 @media (max-width: 980px) {
