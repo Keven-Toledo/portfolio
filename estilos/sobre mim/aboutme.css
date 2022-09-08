@@ -19,7 +19,7 @@
 }
 /**** Body da página ****/
 .conteudo {
-  background-image: url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png), url(../fotos/Group\ 3.png);
+  background-image: url(../../fotos/Group\ 3.png), url(../../fotos/Group\ 3.png), url(../../fotos/Group\ 3.png), url(../../fotos/Group\ 3.png), url(../../fotos/Group\ 3.png), url(../../fotos/Group\ 3.png);
   background-position: 5% 4%, 95% 17%, 11% 35%, 91% 49%, 11% 67%, 91% 91%;
 }
 /**** Container da Biografia ****/
@@ -291,16 +291,13 @@
 }
 
 /**** MEDIA QUERYS ****/
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   .conteudo {
     background-image: none;
   }
 }
-@media (max-width: 768px) {
-  .conteudo {
-    background-image: none;
-  }
 
+@media (max-width: 768px) {
   .texto1 {
     grid-column: 1 / 4;
     grid-row: 1;

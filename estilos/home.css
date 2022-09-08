@@ -95,7 +95,7 @@ body {
     filter: blur(0.2px) brightness(0);
   }
   100% {
-    filter: blur(0.2px) brightness(1);
+    filter: blur(0px) brightness(1);
   }
 }
 
