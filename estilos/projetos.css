@@ -46,6 +46,7 @@
   font-size: 1.7em;
   bottom: 26px;
   left: 25px;
+  color: white;
 }
 
 .criador {
@@ -54,6 +55,7 @@
   font-size: 1em;
   bottom: 10px;
   left: 25px;
+  color: white;
 }
 
 .imagem:hover {
