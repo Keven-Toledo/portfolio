@@ -1,57 +1,115 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="author" content="Keven Toledo" />
-    <meta
-      name="description"
-      content="Portfólio profissional de Keven Toledo, Desenvolvedor Front-end"
-    />
+  <meta name="author" content="Keven Toledo" />
+  <meta
+    name="description"
+    content="Portfólio profissional de Keven Toledo, Desenvolvedor Front-end"
+  />
 
-    <title>Portfólio - Contato</title>
+  <title>Portfólio - Projetos</title>
 
-    <link rel="stylesheet" type="text/css" href="../estilos/reset.css">
-    <link rel="stylesheet" type="text/css" href="../estilos/main.css">
+  <link rel="stylesheet" type="text/css" href="../estilos/reset.css">
+  <link rel="stylesheet" type="text/css" href="../estilos/main.css">
+  <link rel="stylesheet" type="text/css" href="../estilos/contato.css">
 
-    <script src="https://kit.fontawesome.com/0b22bcc649.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0b22bcc649.js" crossorigin="anonymous"></script>
 </head>
-<body>
-
-  <div class="cabecalho">
+<body class="corpo">
+  <div class="borda_superior">
     <div class="borda-da-pagina"></div>
     <div class="trapezio"></div>  
   </div>
 
-    <h1 class="tituloSombra">CONTATO</h1>
-    <h2 class="tituloCentral">Entre em contato</h2>
-    <h3 class="tituloContato">Vamos conversar</h3>
-    <p class="paragrafoContato">Fique a vontade para entrar em contato comigo. Estou a disposição em horário comercial para discutir novos projetos, ideias criativas ou oportunidades de emprego.</p>
 
+  <main class="conteudo">
+    <!-- Título Biografia -->
+    <header class="cabecalho">
+     <h1 class="titulo_secundario">Contatos</h1>
+     <h2 class="titulo_principal">Contatos</h2>
+     </header>
+
+     <section class="secao_contato">
+      <!-- Bloco da seção de contatos -->
+      <div class="glass_principal">
+        <!-- Bloco de contato -->
+        <div class="glass_secundario">
+          <!-- Bloco da foto -->
+          <div class="foto">
+            <img src="../fotos/Rectangle 1.png" alt="Foto de Perfil de Keven Toledo">
+          </div>
+          <!-- Bloco de informações -->
+          <div class="bloco_informacoes">
+            <h2 class="nome">Keven Toledo</h2>
+            <h3 class="profissao">Desenvolvedor Front-end</h3>
+            <div class="container_localizacao">
+              <i class="fa-solid fa-location-dot"></i>
+              <p>Brasil | Rio de Janeiro, capital</p>
+            </div>
+          </div>
+          <!-- Bloco de links -->
+          <ul class="container_contatos">
+            <!-- Link Whatsapp -->
+            <a href="https://wa.me/message/HP56XIJDGZYHK1" target="_blank" rel="external" class="container_items">
+              <i class="fa-brands fa-whatsapp icone"></i>
+              <li class="item"> Enviar uma mensagem</li>
+            </a>
+            <!-- Link Linkedin -->
+            <a href="https://www.linkedin.com/in/keven-toledo/" target="_blank" rel="external" class="container_items">
+              <i class="fa-brands fa-linkedin-in icone"></i>
+              <li class="item">Conectar ao LinkedIn</li>
+            </a>
+            <!-- Link Instagram -->
+            <a href="https://www.instagram.com/keven_toledo?r=nametag" target="_blank" rel="external" class="container_items">
+              <i class="fa-brands fa-instagram icone"></i>
+              <li class="item">Seguir no Instagram</li>
+            </a>
+            <!-- Link E-mail -->
+            <a href="mailto:keventoledo08@gmail.com" class="container_items" target="_blank" rel="external">
+              <i class="fa-regular fa-envelope icone"></i>
+              <li class="item">Enviar um E-mail</li>
+            </a>
+          </ul>
+        </div>
+        <!-- Bloco de mensagem -->
+        <div class="mensagem">
+          <h2 class="titulo_mensagem">Entre em Contato</h2>
+          <p class="texto">Fique a vontade para entrar em contato comigo. Estou a disposição em horário comercial para discutir novos projetos, ideias criativas ou oportunidades de emprego.</p>
+        </div>
+      </div>
+     </section>
+   </main>
+    
+    <!--Menu de Navegação-->
     <div class="pai_do_menu">
+      <!--Bloco dos ícones-->
       <nav class="menu">
-        <a href="../index.html" class="container_link" data-text="Página Inicial">
+      <!--ícones de navegação - Página Inicial-->
+      <a href="../index.html" class="container_link" data-text="Página Inicial">
           <i class="fa-solid fa-house" aria-hidden="true" title="Página Inicial"></i>
           <p>Página inicial</p>
-        </a>
-        <a href="./sobreMim.html" class="container_link" data-text="Sobre mim">
+      </a>
+      <!--ícones de navegação - Sobre Mim-->
+      <a href="sobreMim.html" class="container_link" data-text="Sobre mim">
           <i class="fa-solid fa-user-large" aria-hidden="true" title="Sobre Mim"></i>
           <p>Sobre mim</p>
-        </a>
-        <a href="./projetos.html" class="container_link" data-text="Projetos">
+      </a>
+      <!--ícones de navegação - Projetos-->
+      <a href="projetos.html" class="container_link" data-text="Projetos">
           <i class="fa-solid fa-layer-group" aria-hidden="true" title="Projetos"></i>
           <p>Projetos</p>
-        </a>
-        <a href="./contato.html" class="container_link" data-text="Contato">
+      </a>
+      <!--ícones de navegação - Contato-->
+      <a href="contato.html" class="container_link" data-text="Contato">
           <i class="fa-solid fa-comments" aria-hidden="true" title="Contato"></i>
           <p>Contato</p>
-
-          <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-whatsapp"></i>
-        </a>
+      </a>
       </nav>
+    <!-- Fim do Menu de Navegação-->
     </div>
 </body>
 </html>
