@@ -29,9 +29,9 @@
 .glass_principal {
   max-width: 945px;
   height: 680px;
-  margin: 0 auto 6em;
+  margin: 1em auto 2em;
   background: rgba(255, 255, 255, 0.16);
-  box-shadow: 0px 2.71693px 10.8677px rgba(31, 18, 135, 0.37);
+  box-shadow: 0px 2.71693px 10.8677px rgb(31 18 135 / 37%);
   backdrop-filter: blur(6.79232px);
   border-radius: 20px;
   display: flex;
@@ -139,16 +139,16 @@
 }
 
 .item {
-  font-size: 1.5em;
+  font-size: clamp(1em, 5.5vw, 1.5em);
 }
 
 .mensagem {
   width: 400px;
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .titulo_mensagem {
@@ -202,4 +202,39 @@
   margin-top: 16px;
   line-height: 1.2em;
   text-align: justify;
+}
+
+
+@media (max-width: 768px) {
+
+  .corpo {
+    background-size: 200vw, 100vw;
+    background-position: center bottom;
+  }
+  .mensagem {
+    display: none;
+  }
+  .glass_principal {
+    background: transparent;
+    box-shadow: none;
+    backdrop-filter: none;
+    justify-content: center;
+  }
+
+  .glass_secundario {
+    border-radius: 20px;
+    margin: 0 10px;
+    backdrop-filter: blur(6.79232px);
+  }
+
+  .foto {
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .corpo {
+    background-size: 200vw, 100vw;
+    background-position: center bottom;
+  }
 }
