@@ -24,7 +24,7 @@
 .secao_contato {
   width: 100%;
   height: 100vh;
-  margin: 0 0 6em;
+  margin: 0 0 10em;
 }
 
 .glass_principal {
@@ -208,10 +208,6 @@
 
 
 @media (max-width: 768px) {
-  .corpo {
-    background-size: 200vw, 100vw;
-    background-position: center bottom;
-  }
   .mensagem {
     display: none;
   }
@@ -230,12 +226,5 @@
 
   .foto {
     padding: 1.5em;
-  }
-}
-
-@media (max-width: 480px) {
-  .corpo {
-    background-size: 500vw, 100vw;
-    background-position: center bottom;
   }
 }
