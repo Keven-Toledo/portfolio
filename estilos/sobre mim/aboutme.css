@@ -38,6 +38,11 @@
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+strong {
+  font-weight: bold;
+  color: var(--cor__subtitulo);
+  text-shadow: 1px 1px 3px black;
+}
 /**** Parágrafo 1 - GRID ****/
 .texto1 {
   grid-column: 1 / 3;
