@@ -26,7 +26,7 @@
 .biografia {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   align-items: center;
   max-width: 800px;
   margin: 0 10px;
@@ -44,8 +44,12 @@
   grid-row: 1;
   padding: 0px 17px;
 }
-/**** Parágrafo 1 - TEXTO ****/
-.texto1 > p {
+/**** Configuração dos Parágrafos 1/5 - TEXTO ****/
+.texto1, 
+.texto2,
+.texto3,
+.texto4,
+.texto5 > p {
   text-align: justify;
   font-weight: var(--gemunu_medium);
   font-size: 1.8em;
@@ -61,23 +65,34 @@
 /**** Foto - IMAGEM ****/
 .foto > img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 10px;
   box-shadow: -4px 4px 1px rgba(15, 15, 15, 0.277);
 }
-/**** Parágrafo 2 - GRID ****/
-.texto2 {
+
+/**** Configuração geral dos parágrafos 2/5 - GRID ****/
+.texto2, .texto3,
+.texto4, .texto5 {
   grid-column: 1 / 4;
-  grid-row: 2;
   padding: 0px 17px 17px;
 }
-/**** Parágrafo 2 - TEXTO ****/
-.texto2 > p {
-  text-align: justify;
-  font-weight: var(--gemunu_medium);
-  font-size: 1.8em;
-  line-height: 1.2em;
-  text-indent: 1.6em;
+
+/**** Parágrafo 2 - GRID ****/
+.texto2 {
+  grid-row: 2;
 }
+/**** Parágrafo 3 - GRID ****/
+.texto3 {
+  grid-row: 3;
+}
+/**** Parágrafo 4 - GRID ****/
+.texto4 {
+  grid-row: 4;
+}
+/**** Parágrafo 5 - GRID ****/
+.texto5 {
+  grid-row: 5;
+}
+
 
 /**** Seção dos Conhecimentos ****/
 .conhecimentos {
