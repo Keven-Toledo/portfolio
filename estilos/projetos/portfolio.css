@@ -17,6 +17,33 @@
   --gemunu_semibold: "gemunu_semibold", sans-serif;
   --font__nome: 'Impact', sans-serif;
 }
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container_video {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1.07844px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0px 8.62751px 34.51px 8.62751px rgba(31, 18, 135, 0.37);
+  backdrop-filter: blur(21.5688px);
+  border-radius: 14.4424px;
+}
+.video {
+  width: 80%;
+  margin: 30px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.video iframe {
+  width: 100%;
+  border-radius: 20px;
+}
 
 .container_link {
   font-size: 1.4em;
