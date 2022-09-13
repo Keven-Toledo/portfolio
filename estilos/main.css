@@ -66,8 +66,6 @@
   -webkit-box-sizing: border-box;
  }
 
- /* Decoração Superior do Site */
-
  /* Container Superior */
 .borda_superior {
   display: flex;
