@@ -221,7 +221,8 @@
   font-size: clamp(4em, 9.5vw, 5em);
 }
 
-
+/**** Galeria ****/
+.certificados {margin: 2em 0;}
 
 /* BARRA DE NAVEGAÇÃO */
 .pai_do_menu{padding: 9px 0 0;}
