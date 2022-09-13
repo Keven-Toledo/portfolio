@@ -160,7 +160,7 @@
   max-width: 800px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 2em;
+  margin-bottom: 6em;
   margin-top: 2em;
   padding: 15px;
 
@@ -250,13 +250,6 @@
 /**** Tamanho dos ícones ****/
 .tec {
   font-size: clamp(4em, 9.5vw, 5em);
-}
-
-/**** Galeria ****/
-.certificados {margin: 1em 0;}
-.galeria {
-  letter-spacing: 0px;
-  font-size: clamp(2.5em, 9.5vw, 4.3em);
 }
 
 /* BARRA DE NAVEGAÇÃO */
