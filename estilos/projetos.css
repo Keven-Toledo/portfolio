@@ -112,7 +112,6 @@
 }
 
 .imagem:hover {
-  transform: scale(1.05);
   box-shadow: 0px 0px 20px #008AFF, inset 0px 0px 10px #008AFF !important;
   border: 2px solid #008AFF;
   transition: all .1s ease-in-out;
